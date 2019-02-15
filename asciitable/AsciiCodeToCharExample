@@ -1,0 +1,8 @@
+class AsciiCodeToCharExample {
+    public static void main(String[] args) {
+        int asciiValue = 96;
+        char ch = asciiValue;
+
+        System.out.printf("Character corresponding to Ascii Code %d = %c\n", asciiValue, ch);
+    }
+}
