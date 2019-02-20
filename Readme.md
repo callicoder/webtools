@@ -24,3 +24,17 @@
     + [Javascript program to convert a character to ASCII code and vice versa](https://www.asciitable.xyz/javascript-program-convert-string-character-to-ascii-code/)
     + [Python program to convert a character to ASCII code and vice versa](https://www.asciitable.xyz/python-program-convert-string-character-to-ascii-code/)
     + [Go program to convert a character to ASCII code and vice versa](https://www.asciitable.xyz/golang-program-convert-string-character-to-ascii-code/)
+
+4. **[Base64 Encoder](https://www.base64encoder.io)**    
+
+    + [Base64 Encoding a String in Java](https://www.base64encoder.io/java/)
+    + [Base64 Encoding a String in Javascript](https://www.base64encoder.io/javascript/)
+    + [Base64 Encoding a String in Python](https://www.base64encoder.io/python/)
+    + [Base64 Encoding a String in Golang](https://www.base64encoder.io/golang/)
+
+5. **[Base64 Decoder](https://www.base64decoder.io/)**
+
+    + [Base64 Decoding in Java](https://www.base64decoder.io/java/)
+    + [Base64 Decoding in Python](https://www.base64decoder.io/python/)
+    + [Base64 Decoding in Javascript](https://www.base64decoder.io/javascript/)
+    + [Base64 Decoding in Golang](https://www.base64decoder.io/golang/)

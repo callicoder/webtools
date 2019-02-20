@@ -39,7 +39,7 @@ class Base64DecodeExample {
         }
     }
     public static void main(String[] args) {
-        String data = "Hello World !?$%";
+        String data = "hello:world!?$*&()'-=@~";
 
         encodedData = base64Encode(data);
         System.out.println(base64Decode(encodedData));

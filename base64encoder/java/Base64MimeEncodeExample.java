@@ -5,14 +5,14 @@ import java.util.UUID;
 
 class Base64MimeEncodeExample {
 
-    private static String base64MimeEncode(String value) {
-        try {
-            return Base64.getEncoder()
-                        .encodeToString(value.getBytes(StandardCharsets.UTF_8.toString()));        
-        } catch(UnsupportedEncodingException ex) {
-            throw new RuntimeException(ex);
-        }
-    }  
+private static String base64MimeEncode(String value) {
+    try {
+        return Base64.getMimeEncoder()
+                    .encodeToString(value.getBytes(StandardCharsets.UTF_8.toString()));        
+    } catch(UnsupportedEncodingException ex) {
+        throw new RuntimeException(ex);
+    }
+}  
 
     public static void main(String[] args) {
         StringBuilder buffer = new StringBuilder();
