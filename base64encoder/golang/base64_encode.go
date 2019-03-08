@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	data := "hello world123!?$"
-
+	data := "hello world12345!?$*&()'-@~"
+	
 	// Base64 Standard Encoding
 	sEnc := base64.StdEncoding.EncodeToString([]byte(data))
 	fmt.Println(sEnc)

@@ -15,7 +15,7 @@ func main() {
 		fmt.Printf("Error decoding string: %s ", err.Error())
 		return
 	}
-	fmt.Println(sDec)
+	fmt.Println(string(sDec))
 
 	// Base64 Url Decoding
 	uEnc := base64.URLEncoding.EncodeToString([]byte(data))
@@ -24,6 +24,6 @@ func main() {
 		fmt.Printf("Error decoding string: %s ", err.Error())
 		return
 	}
-	fmt.Println(uDec)
+	fmt.Println(string(uDec))
 
 }
